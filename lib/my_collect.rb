@@ -16,7 +16,7 @@ def my_collect(languages)
   end
 end
 
-my_collect(languages) {|i| i.upcase}
+my_collect(['ruby', 'javascript', 'python', 'objective-c']) {|i| i.upcase}
 
 def my_collect(students)
   i = 0 
