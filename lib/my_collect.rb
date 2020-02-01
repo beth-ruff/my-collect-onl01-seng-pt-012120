@@ -14,6 +14,7 @@ def my_collect(languages)
     collection << yield(languages[i])
     i += 1 
   end
+  collection
 end
 
 my_collect(['ruby', 'javascript', 'python', 'objective-c']) {|i| i.upcase}
