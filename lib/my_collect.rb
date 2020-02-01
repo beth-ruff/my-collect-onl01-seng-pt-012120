@@ -16,7 +16,7 @@ def my_collect(languages)
   end
 end
 
-my_collect(languases) {|i| i.upcase}
+my_collect(languages) {|i| i.upcase}
 
 def my_collect(students)
   i = 0 
