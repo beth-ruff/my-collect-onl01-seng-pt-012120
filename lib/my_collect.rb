@@ -27,4 +27,4 @@ def my_collect(students)
   end
 end
 
-my_collect(students) {|i| i.split(" ").first}
+my_collect(['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']) {|i| i.split(" ").first}
