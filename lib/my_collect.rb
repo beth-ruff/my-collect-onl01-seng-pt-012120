@@ -26,6 +26,7 @@ def my_collect(students)
     collection << yield(students[i])
     i += 1 
   end
+  collection
 end
 
 my_collect(['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']) {|i| i.split(" ").first}
